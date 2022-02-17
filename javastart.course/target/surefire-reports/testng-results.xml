@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-02-17T11:32:18 CET" name="All Pet Store Tests" finished-at="2022-02-17T11:32:33 CET" duration-ms="14507">
+    <groups>
+    </groups>
+    <test started-at="2022-02-17T11:32:18 CET" name="Negative Login Tests" finished-at="2022-02-17T11:32:33 CET" duration-ms="14374">
+      <class name="tests.FailedLoginTests">
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:tests.FailedLoginTests@286090c]" started-at="2022-02-17T11:32:18 CET" name="beforeClass" finished-at="2022-02-17T11:32:18 CET" duration-ms="85" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method is-config="true" signature="beforeTests()[pri:0, instance:tests.FailedLoginTests@286090c]" started-at="2022-02-17T11:32:18 CET" name="beforeTests" finished-at="2022-02-17T11:32:27 CET" duration-ms="8882" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTests -->
+        <test-method signature="asUserTryToLogInWithIncorrectLoginAndPassword()[pri:0, instance:tests.FailedLoginTests@286090c]" started-at="2022-02-17T11:32:28 CET" name="asUserTryToLogInWithIncorrectLoginAndPassword" finished-at="2022-02-17T11:32:31 CET" duration-ms="3291" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- asUserTryToLogInWithIncorrectLoginAndPassword -->
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:tests.FailedLoginTests@286090c]" started-at="2022-02-17T11:32:31 CET" name="afterTest" finished-at="2022-02-17T11:32:33 CET" duration-ms="1493" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- tests.FailedLoginTests -->
+    </test> <!-- Negative Login Tests -->
+    <test started-at="2022-02-17T11:32:18 CET" name="Positive Login Tests" finished-at="2022-02-17T11:32:33 CET" duration-ms="14507">
+      <class name="tests.PositiveLoginTests">
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:tests.PositiveLoginTests@abbe000]" started-at="2022-02-17T11:32:18 CET" name="beforeClass" finished-at="2022-02-17T11:32:18 CET" duration-ms="85" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method is-config="true" signature="beforeTests()[pri:0, instance:tests.PositiveLoginTests@abbe000]" started-at="2022-02-17T11:32:18 CET" name="beforeTests" finished-at="2022-02-17T11:32:28 CET" duration-ms="9683" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTests -->
+        <test-method signature="asUserTryToLogInWithValidLoginAndPassword()[pri:0, instance:tests.PositiveLoginTests@abbe000]" started-at="2022-02-17T11:32:28 CET" name="asUserTryToLogInWithValidLoginAndPassword" finished-at="2022-02-17T11:32:31 CET" duration-ms="3275" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- asUserTryToLogInWithValidLoginAndPassword -->
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:tests.PositiveLoginTests@abbe000]" started-at="2022-02-17T11:32:31 CET" name="afterTest" finished-at="2022-02-17T11:32:33 CET" duration-ms="1326" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- tests.PositiveLoginTests -->
+    </test> <!-- Positive Login Tests -->
+  </suite> <!-- All Pet Store Tests -->
+</testng-results>
